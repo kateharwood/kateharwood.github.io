@@ -6,6 +6,11 @@ body{
   background-color: #0099CC;
 }
 
+h1{
+  font-family: "Garamond";
+  color: #66FFFF;
+}
+
 .button{
   color: blue;
 }

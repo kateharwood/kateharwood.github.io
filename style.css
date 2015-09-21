@@ -1,0 +1,33 @@
+*{
+}
+
+body{
+  font-family: "Futura";
+  background-color: #0099CC;
+}
+
+h1{
+  font-family: "Futura";
+  font-weight: 10px;
+  color: #66FFFF;
+  text-align: center;
+  font-size: 120px;
+}
+
+.button{
+  color: #66FFFF;
+  text-align: center;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #0000FF;
+}
+
+a:visited{
+  color: #66FFFF;
+}

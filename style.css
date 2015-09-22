@@ -31,3 +31,8 @@ a:hover{
 a:visited{
   color: #66FFFF;
 }
+
+image {
+  height: 120px;
+  width: 120px;
+}

@@ -1,0 +1,87 @@
+body{
+  font-family: "Futura";
+  background-image: url("boston_sky.jpg");
+  color:#67A9BF;
+  background-attachment: fixed;
+}
+
+h1 {
+ font-family: "Futura";
+ text-align: center;
+ font-size: 50px;
+ color:#67A9BF;
+ height:70px;
+ width:700px;
+ background-color:#050505;
+ border-width:1px;
+ border-radius:3px;
+ margin-right: auto;
+ margin-left: 20%;
+ display: inline-block;
+ opacity: .8;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+#name{
+  color:#67A9BF;
+  text-align: center;
+  height:25px;
+  width:700px;
+  background-color:#050505;
+  border-width:1px;
+  border-radius:3px;
+  margin-right: auto;
+  margin-left: 20%;
+  display: inline-block;
+  opacity: .8;
+}
+
+#education{
+  color:#67A9BF;
+  text-align: left;
+  height:245px;
+  width:700px;
+  background-color:#050505;
+  border-width:1px;
+  border-radius:3px;
+  margin-right: auto;
+  margin-left: 20%;
+  margin-top: 5px;
+  display: inline-block;
+  opacity: .8;
+}
+
+#experience{
+	color:#67A9BF;
+  	text-align: left;
+  	height:700px;
+  	width:700px;
+  	background-color:#050505;
+	border-width:1px;
+	border-radius:3px;
+	margin-right: auto;
+	margin-left: 20%;
+	margin-top: 5px;
+	display: inline-block;
+	opacity: .8;
+}
+
+#courses {
+	color:#67A9BF;
+  	text-align: left;
+  	height:284px;
+  	width:700px;
+  	background-color:#050505;
+	border-width:1px;
+	border-radius:3px;
+	margin-right: auto;
+	margin-left: 20%;
+	margin-top: 5px;
+	display: inline-block;
+	opacity: .8;
+}

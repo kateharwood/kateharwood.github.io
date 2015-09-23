@@ -12,18 +12,6 @@ h1{
   font-size: 90px;
 }
 
-h2 {
- font-family: "Futura";
- text-align: center;
- font-size: 50px;
- color: #FFFFFF;
-}
-
-p {
-  margin-top: 5px;
-  margin-bottom: 0px;
-}
-
 .button{
   color:#67A9BF;
   text-align: center;
@@ -38,35 +26,6 @@ p {
   display: inline-block;
   opacity: .3;
 
-}
-
-#name{
-  color:#67A9BF;
-  text-align: left;
-  height:25px;
-  width:600px;
-  background-color:#050505;
-  border-width:1px;
-  border-radius:3px;
-  margin-right: auto;
-  margin-left: 25%;
-  display: inline-block;
-  opacity: .7;
-}
-
-#education{
-  color:#67A9BF;
-  text-align: left;
-  height:275px;
-  width:600px;
-  background-color:#050505;
-  border-width:1px;
-  border-radius:3px;
-  margin-right: auto;
-  margin-left: 25%;
-  margin-top: 5px;
-  display: inline-block;
-  opacity: .7;
 }
 
 a:link{

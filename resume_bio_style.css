@@ -1,8 +1,9 @@
 body{
   font-family: "Futura";
-  background-image: url("boston_sky.jpg");
+  background-image: url("caldera.jpg");
   color:#67A9BF;
   background-attachment: fixed;
+  background-size: cover;
 }
 
 h1 {
@@ -13,10 +14,9 @@ h1 {
  height:70px;
  width:700px;
  background-color:#050505;
- border-width:1px;
- border-radius:3px;
+ border-radius: 15px;
  margin-right: auto;
- margin-left: 20%;
+ margin-left: 22%;
  display: inline-block;
  opacity: .8;
 }
@@ -25,93 +25,36 @@ p {
   margin-top: 5px;
   margin-bottom: 0px;
   text-align: center;
+  padding-bottom: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.section{
+  color:#67A9BF;
+  text-align: left;
+  width:700px;
+  background-color:#050505;
+  margin-right: auto;
+  margin-left: 22%;
+  margin-bottom: 10px;
+  display: inline-block;
+  opacity: .8;
+  border-radius: 15px;
 }
 
 #name{
-  color:#67A9BF;
-  text-align: center;
-  height:25px;
-  width:700px;
-  background-color:#050505;
-  border-width:1px;
-  border-radius:3px;
-  margin-right: auto;
-  margin-left: 20%;
-  display: inline-block;
-  opacity: .8;
+ text-align: center;
 }
 
-#education{
-  color:#67A9BF;
-  text-align: left;
-  height:245px;
-  width:700px;
-  background-color:#050505;
-  border-width:1px;
-  border-radius:3px;
-  margin-right: auto;
-  margin-left: 20%;
-  margin-top: 5px;
-  display: inline-block;
-  opacity: .8;
+#bio {
+  width:300px;
+  margin-top: 10%;
+  margin-left: 62%;
 }
 
-#experience{
-	color:#67A9BF;
-  	text-align: left;
-  	height:700px;
-  	width:700px;
-  	background-color:#050505;
-	border-width:1px;
-	border-radius:3px;
-	margin-right: auto;
-	margin-left: 20%;
-	margin-top: 5px;
-	display: inline-block;
-	opacity: .8;
-}
-
-#courses {
-	color:#67A9BF;
-  text-align: left;
-  height:284px;
-  width:700px;
-  background-color:#050505;
-	border-width:1px;
-	border-radius:3px;
-	margin-right: auto;
-	margin-left: 20%;
-	margin-top: 5px;
-	display: inline-block;
-	opacity: .8;
-}
-
-#skills {
-  color:#67A9BF;
-  text-align: left;
-  height:132px;
-  width:700px;
-  background-color:#050505;
-  border-width:1px;
-  border-radius:3px;
-  margin-right: auto;
-  margin-left: 20%;
-  margin-top: 5px;
-  display: inline-block;
-  opacity: .8;
-}
-
-#activities {
-  color:#67A9BF;
-  text-align: center;
-  height:82px;
-  width:700px;
-  background-color:#050505;
-  border-width:1px;
-  border-radius:3px;
-  margin-right: auto;
-  margin-left: 20%;
-  margin-top: 5px;
-  display: inline-block;
-  opacity: .8;
+#squareimg {
+  display: inline;
+  height: 10px;
+  width: 20px;
 }

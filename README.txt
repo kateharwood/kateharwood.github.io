@@ -15,5 +15,6 @@ Not Implemented Correctly: I think I could have done a bit more work with stream
 3. I've worked on this project for approximately 9 hours.
 
 Sources:
-w2schools.com
+w3schools.com
 css-tricks.com
+stackoverflow.com

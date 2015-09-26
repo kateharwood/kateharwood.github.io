@@ -1,12 +1,9 @@
 body{
   font-family: "Futura";
-  background: url("docks.jpg"); /*no-repeat center center fixed*/
-  /*-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;*/
-  background-size: cover;
+  background: url("docks.jpg");
   color:#67A9BF;
   background-attachment: fixed;
+  background-size: cover;
 }
 
 h1{

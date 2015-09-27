@@ -6,7 +6,7 @@ body{
   background-size: cover;
 }
 
-h1 {
+h2 {
  font-family: "Futura";
  text-align: center;
  font-size: 50px;
@@ -54,7 +54,14 @@ p {
 }
 
 #squareimg {
-  display: inline;
-  height: 10px;
-  width: 20px;
+  display: block;
+  height: 250px;
+  width: auto;
+  border-radius: 15px;
 }
+
+#backbutton {
+  margin-left: 45.5%;
+}
+
+

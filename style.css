@@ -1,6 +1,6 @@
 body{
   font-family: "Futura";
-  background: url("docks.jpg");
+  background-image: url("docks.jpg");
   color:#67A9BF;
   background-attachment: fixed;
   background-size: cover;

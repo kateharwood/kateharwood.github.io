@@ -1,9 +1,9 @@
 body{
-  font-family: "Futura";
-  background-image: url("caldera.jpg");
-  color:#67A9BF;
+  /*font-family: "Futura";*/
+  background-image: url("turner_farm.jpg");
+  /*color:#67A9BF;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
 }
 
 h2 {
@@ -45,6 +45,9 @@ p {
 
 #name{
  text-align: center;
+ padding-top: 5px;
+ padding-bottom:5px;
+ font-size: 20px;
 }
 
 #bio {
@@ -62,6 +65,9 @@ p {
 
 #backbutton {
   margin-left: 45.5%;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  box-shadow: none;
 }
 
 

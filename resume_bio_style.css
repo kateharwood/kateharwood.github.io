@@ -30,15 +30,16 @@ p {
   padding-right: 7px;
 }
 
+
 .section{
   color:#67A9BF;
   text-align: left;
   width:700px;
   background-color:#050505;
   margin-right: auto;
-  margin-left: 22%;
+  margin-left: auto;
   margin-bottom: 10px;
-  display: inline-block;
+  display: block;
   opacity: .8;
   border-radius: 15px;
 }
@@ -50,24 +51,38 @@ p {
  font-size: 20px;
 }
 
+.contentHolder{
+  width: 700px;
+  height: 250px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 #bio {
-  width:300px;
-  margin-top: 10%;
-  margin-left: 62%;
+  width: 300px;
+  display: inline-block;
+  margin-bottom: 0px;
+  margin-top: 70px;
+  margin-right: 50px;
+  float: right; 
 }
 
 #squareimg {
-  display: block;
+  display: inline-block;
   height: 250px;
-  width: auto;
+  width: 194px;
   border-radius: 15px;
+  margin-left: 50px;
+  float: left;
 }
 
 #backbutton {
-  margin-left: 45.5%;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 50px;
-  margin-top: 20px;
+  margin-top: 80px;
   box-shadow: none;
+  display: block;
 }
 
 

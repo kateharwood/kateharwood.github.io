@@ -17,6 +17,17 @@ h1{
   text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
+
+
+
+#buttonholder{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 22px;
+  width: 400px;
+}
+
 .button{
   text-align: center;
   height:22px;
@@ -28,10 +39,17 @@ h1{
   border-color: #000000;
   margin-top:0px;
   margin-bottom:0px;
-  margin-left: 29%;
   display: inline-block;
   opacity: .6;
   box-shadow: 3px 3px 5px #888888;
+}
+
+#buttonleft{
+  float: left;
+}
+
+#buttonright{
+  float:right;
 }
 
 a:link{

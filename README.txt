@@ -8,11 +8,11 @@ My Portfolio
 1. 
 Implemented Correctly: HTML and CSS pages passed validator tests, all styling is done in CSS files, images are not absolute URLs
 
-Not Implemented Correctly: I think I could have done a bit more work with streamlining the classes - there is some unecessarily repeated code. (A big problem is the responsive design for the page, and the fixed positions of my blocks...)
+Not Implemented Correctly: The website design is not very responsive, and it looks terrible on mobile screens.
 
 2. I went to Yotam Bentov for help with aspects of this project.
 
-3. I've worked on this project for approximately 9 hours.
+3. I've worked on this project for approximately 13 hours.
 
 Sources:
 w3schools.com

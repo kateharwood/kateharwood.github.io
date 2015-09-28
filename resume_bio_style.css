@@ -75,6 +75,7 @@ p {
   border-radius: 15px;
   margin-left: 50px;
   float: left;
+  border-width: 0px;
 }
 
 #backbutton {

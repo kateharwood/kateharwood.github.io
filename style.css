@@ -1,5 +1,5 @@
 body{
-  font-family: "Futura";
+  font-family: "Futura", sans-serif;
   background-image: url("docks.jpg");
   color:#67A9BF;
   background-attachment: fixed;
@@ -8,8 +8,8 @@ body{
 }
 
 h1{
-  font-family: "Futura";
-  font-weight: 20;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   text-align: center;
   font-size: 90px;
   margin-top: 0%;

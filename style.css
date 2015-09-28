@@ -17,9 +17,6 @@ h1{
   text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
-
-
-
 #buttonholder{
   display: block;
   margin-left: auto;
@@ -67,9 +64,13 @@ a:visited{
 }
 
 img {
-  border-radius: 50%;
   height: 140px;
-  width: 100px;
-  margin-left: 45%;
-  margin-bottom: 0%;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000000;
+  border-radius: 50%
 }

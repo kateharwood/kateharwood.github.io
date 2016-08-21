@@ -1,9 +1,6 @@
+
 body{
-  /*font-family: "Futura", sans-serif;*/
   background-image: url("turner_farm.jpg");
-  /*color:#67A9BF;
-  background-attachment: fixed;
-  background-size: cover; */
 }
 
 h2 {
@@ -22,10 +19,10 @@ h2 {
 }
 
 p {
-  padding-top: 10px;
   margin-bottom: 0px;
   margin-top: 0px;
   text-align: center;
+  padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 7px;
   padding-right: 7px;

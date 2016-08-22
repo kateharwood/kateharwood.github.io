@@ -1,14 +1,14 @@
 
-body{
+/*body{
   font-family: "Futura", sans-serif;
   background-image: url("docks.jpg");
   color:#67A9BF;
   background-attachment: fixed;
   background-size: cover;
 
-}
+}*/
 
-h1{
+/*h1{
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   text-align: center;
@@ -37,9 +37,9 @@ h1{
   display: inline-block;
   opacity: .6;
   box-shadow: 3px 3px 5px #888888;
-}
+}*/
 
-#buttonleft{
+/*#buttonleft{
   float: left;
 }
 
@@ -53,36 +53,54 @@ a:link{
 
 a:visited{
   color: #10AEE3;
-}
+}*/
 
-#topLevelContainer {
+/*#topLevelContainer {
   margin-left: 50;
   height: 100%;
   padding-bottom: 1000px; /*TODO revisit this*/
-  margin-bottom: -1000px;
+  /*margin-bottom: -1000px;
   border-width: 2px;
-}
+}*/
 
-#leftCol {
+/*#leftCol {
   background-color: #67A9BF;
   height: 100%;
   padding-bottom: 1000px; /*TODO revisit this*/
-  margin-bottom: -1000px;
+  /*margin-bottom: -1000px;
+}*/
+
+body {
+  /*font-family: "Futura", sans-serif;*/
+  background-image: url("tunnel_full.jpg");
+  color:#67A9BF;
+  background-attachment: fixed;
+  background-size: cover;
+
 }
 
-img {
+/*.background-pic {
+  background-image: url("tunnel_stretch.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}*/
+
+#main-section {
+  margin-left: 40%;
+  margin-right: 5%;
+  background-color: black;
+  opacity: .7;
+}
+
+.small-pic {
   height: 140px;
   border-width: 2px;
   border-style: solid;
-  border-color: #000000;
-  border-radius: 50%;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  border-color: #67A9BF;
+  border-radius: 50%
 }
 
-h1{
+h1 {
   font-family: "Roboto", sans-serif;
   color:#67A9BF;
   font-weight: 300;
@@ -90,4 +108,12 @@ h1{
   margin-top: 0%;
   margin-bottom: 2%;
   text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+#education {
+  background-color: black;
+}
+
+#experience {
+  background-color: white;
 }

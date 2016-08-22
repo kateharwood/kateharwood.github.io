@@ -55,14 +55,35 @@ a:visited{
   color: #10AEE3;
 }
 
+#topLevelContainer {
+  margin-left: 50;
+  height: 100%;
+  padding-bottom: 1000px; /*TODO revisit this*/
+  margin-bottom: -1000px;
+  border-width: 2px;
+}
+
+#leftCol {
+  background-color: #67A9BF;
+  height: 100%;
+  padding-bottom: 1000px; /*TODO revisit this*/
+  margin-bottom: -1000px;
+}
+
 img {
   height: 140px;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
   border-width: 2px;
   border-style: solid;
   border-color: #000000;
   border-radius: 50%
+}
+
+h1{
+  font-family: "Roboto", sans-serif;
+  color:#67A9BF;
+  font-weight: 300;
+  font-size: 90px;
+  margin-top: 0%;
+  margin-bottom: 2%;
+  text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }

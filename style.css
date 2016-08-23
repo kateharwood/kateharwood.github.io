@@ -86,18 +86,32 @@ body {
 }*/
 
 #main-section {
-  margin-left: 40%;
-  margin-right: 5%;
+  margin-left: 35%;
+  margin-right: 10%;
   background-color: black;
   opacity: .7;
 }
 
-.small-pic {
+.section {
+  padding: 5%;
+  padding-bottom: 10%;
+}
+
+#small-pic {
   height: 140px;
   border-width: 2px;
   border-style: solid;
   border-color: #67A9BF;
-  border-radius: 50%
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  /*float: left;
+  display: inline-block;
+  margin-left: 10%;
+  margin-top: 4%;*/
+
 }
 
 h1 {
@@ -105,9 +119,13 @@ h1 {
   color:#67A9BF;
   font-weight: 300;
   font-size: 90px;
-  margin-top: 0%;
-  margin-bottom: 2%;
+  margin-top: 5%;
+  margin-bottom: 0%;
   text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  text-align: center;
+  /*float: right;
+  display: inline-block;
+  margin-right: 20%;*/
 }
 
 #education {

@@ -71,58 +71,74 @@ a:visited{
 }*/
 
 div {
-  padding-top: 1%;
-  /*margin-bottom: 1%;*/
+  padding-bottom: 1%;
 }
 
 body {
   font-family: "Century Gothic", sans-serif;
-  background-image: url("tunnel_full.jpg");
+  background-image: url("tunnel_final.jpg");
   color:#67A9BF;
   background-attachment: fixed;
   background-size: cover;
+  background-color: #67A9BF;
 
 }
 
-/*.background-pic {
-  background-image: url("tunnel_stretch.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-}*/
-
 #main-section {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 21%;
+  margin-right: 25%;
+  padding-top: 1%;
   opacity: .8;
 }
 
 .section {
-  /*padding: 5%;*/
   padding-bottom: 1%;
-
 }
+
+.blue-section {
+  background-color: #338FB6;
+  color: white;
+  padding: 5%;
+  padding-bottom: 2%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+}
+
+.black-section {
+  background-color: black;
+  padding: 5%;
+  padding-bottom: 2%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #67A9BF;
+  border-radius: 5px;
+}
+
 
 .section-icon {
   margin-right: 3%;
-  display: block;
+  display: inline;
   float: left;
-  margin-top: 24%;
-
+  margin-top: -1%;
+  /*margin-top: 24%;*/
 }
 
 .section-title {
-  display: block;
+  display: inline;
   letter-spacing: 8px;
   font-size: 30px;
   text-decoration: overline;
   float: left;
-  margin-top: 24%;
+  /*margin-top: 24%; TODO this is all messed up when made smaller, with content width too, should prob either just have it on top, or figure out how to use rows and cols and all that stuff*/
 }
 
 .content {
   display: inline-block;
-  margin-left: 9%;
-  width: 55%;
+  /*margin-left: 9%;*/
+  width: 80%;
+  margin-top: 2%;
   /*float: left;*/
 }
 
@@ -131,22 +147,22 @@ body {
   border-width: 1px;
   border-style: solid;
   border-radius: 15px;
-  padding: 3%;
+  padding: 2.5%;
   margin-bottom: 3%;
 }
 
 .entry-black {
   border-color: #67A9BF;
-  border-width: 2px;
+  border-width: 1px;
   border-style: solid;
   border-radius: 15px;
+  padding: 2.5%;
   margin-bottom: 3%;
 }
 
 .entry-title {
   display: inline;
-  font-size: 20px;
-  text-transform: uppercase;
+  font-size: 22px;
   /*text-decoration: underline;*/
 }
 
@@ -159,6 +175,11 @@ body {
 .entry-info {
   font-size: 15px;
   padding-left: 4%;
+  padding-top: 2%;
+}
+
+.job-info {
+  font-style: italic;
 }
 
 .descriptor {
@@ -166,6 +187,25 @@ body {
   display: inline;
   padding-right: 2%;
 }
+
+.position {
+  font-size: 20px;
+  color: #aac7d9;
+  margin-left: -4%;
+  margin-top: -2%;
+}
+
+.dot {
+  width: 1%;
+  height: 1%;
+  display: inline;
+}
+
+/*.location {
+  font-size: 12px;
+  color: #aac7d9;
+  padding-left: 4%;
+}*/
 
 #intro {
   background-color: black;
@@ -197,7 +237,6 @@ body {
 }
 
 h1 {
-  font-family: "Roboto", sans-serif;
   color:#67A9BF;
   font-weight: 300;
   font-size: 90px;
@@ -212,23 +251,8 @@ h1 {
   margin-right: 20%;*/
 }
 
-#education {
-  background-color: #338FB6;
-  color: white;
-  padding: 5%;
-  border-width: 1px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 5px;
-
-}
-
-#experience {
-  background-color: black;
-  padding: 5%;
-  border-width: 1px;
-  border-style: solid;
-  border-color: #67A9BF;
-  border-radius: 5px;
-
+.about {
+  font-size: 20px;
+  margin-bottom: 3%;
+  /*font-family: 'Avant Garde';*/
 }

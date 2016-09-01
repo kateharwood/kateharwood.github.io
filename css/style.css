@@ -1,82 +1,10 @@
-
-/*body{
-  font-family: "Futura", sans-serif;
-  background-image: url("docks.jpg");
-  color:#67A9BF;
-  background-attachment: fixed;
-  background-size: cover;
-
-}*/
-
-/*h1{
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  text-align: center;
-  font-size: 90px;
-  margin-top: 0%;
-  margin-bottom: 2%;
-  text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
-}
-
-#buttonholder{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 22px;
-  width: 400px;
-}
-
-.button{
-  text-align: center;
-  height:22px;
-  width:80px;
-  background-color:#050505;
-  border-radius: 8px;
-  margin-top:0px;
-  margin-bottom:0px;
-  display: inline-block;
-  opacity: .6;
-  box-shadow: 3px 3px 5px #888888;
-}*/
-
-/*#buttonleft{
-  float: left;
-}
-
-#buttonright{
-  float:right;
-}
-
-a:link{
-  text-decoration: none;
-}
-
-a:visited{
-  color: #10AEE3;
-}*/
-
-/*#topLevelContainer {
-  margin-left: 50;
-  height: 100%;
-  padding-bottom: 1000px; /*TODO revisit this*/
-  /*margin-bottom: -1000px;
-  border-width: 2px;
-}*/
-
-/*#leftCol {
-  background-color: #67A9BF;
-  height: 100%;
-  padding-bottom: 1000px; /*TODO revisit this*/
-  /*margin-bottom: -1000px;
-}*/
-
 div {
   padding-bottom: 1%;
 }
 
 body {
   font-family: "Century Gothic", sans-serif;
-  background-image: url("tunnel_final.jpg");
+  background-image: url("../imgs/tunnel_final.jpg");
   color:#67A9BF;
   background-attachment: fixed;
   background-size: cover;
@@ -99,6 +27,7 @@ body {
   background-color: #338FB6;
   color: white;
   padding: 5%;
+  padding-left: 4%;
   padding-bottom: 2%;
   border-width: 1px;
   border-style: solid;
@@ -109,6 +38,7 @@ body {
 .black-section {
   background-color: black;
   padding: 5%;
+  padding-left: 4%;
   padding-bottom: 2%;
   border-width: 1px;
   border-style: solid;
@@ -118,11 +48,52 @@ body {
 
 
 .section-icon {
-  margin-right: 3%;
-  display: inline;
+  /*margin-right: 4%;*/
+  /*display: inline;*/
+  /*float: left;*/
+  /*position: absolute;*/
+  /*margin-top: 1%;*/
+  /*padding-left: %;*/
+  /*display: block;
+  margin-left: auto;
+  margin-right: auto;*/
+  /*margin-left: 13%;*/
+  /*height:50px;
+  width:50px;;*/
+  border-radius: 50%;
+  padding: 40px;
+  display: inline-block;
   float: left;
-  margin-top: -1%;
-  /*margin-top: 24%;*/
+}
+
+#info-icon {
+  background:url(../imgs/about-icon.png) no-repeat center center;
+  padding: 0;
+}
+
+#education-icon {
+  background:url(../imgs/education-icon.png) no-repeat center center;
+  border: 2px solid #67A9BF;
+}
+
+#skills-icon {
+  background:url(../imgs/skills-icon.png) no-repeat center center;
+  border: 2px solid white;
+}
+
+#experience-icon {
+  background:url(../imgs/experience-icon.png) no-repeat center center;
+  border: 2px solid #67A9BF;
+}
+
+#projects-icon {
+  background:url(../imgs/projects-icon.png) no-repeat center center;
+  border: 2px solid white;
+}
+
+#contact-icon {
+  background:url(../imgs/contact-icon.png) no-repeat center center;
+  border: 2px solid #67A9BF;
 }
 
 .section-title {
@@ -131,14 +102,16 @@ body {
   font-size: 30px;
   text-decoration: overline;
   float: left;
+  margin-left: 5%;
+  /*margin-top: -5%*/
   /*margin-top: 24%; TODO this is all messed up when made smaller, with content width too, should prob either just have it on top, or figure out how to use rows and cols and all that stuff*/
 }
 
 .content {
   display: inline-block;
-  /*margin-left: 9%;*/
+  margin-left: 15%;
   width: 80%;
-  margin-top: 2%;
+  margin-top: -2%;
   /*float: left;*/
 }
 
@@ -255,4 +228,20 @@ h1 {
   font-size: 20px;
   margin-bottom: 3%;
   /*font-family: 'Avant Garde';*/
+}
+
+a {
+  color: #67A9BF;
+}
+
+a:hover, a:link {
+  text-decoration: none;
+}
+
+#contact {
+  margin-top: -10%;
+}
+
+.clickable:hover {
+  background-color: #67A9BF;
 }

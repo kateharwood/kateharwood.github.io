@@ -1,28 +1,4 @@
-<!-- <!doctype html>
-	<html>
-		<head>
-			<title>
-				Kate Harwood
-			</title>
-			<link rel="stylesheet" type="text/css" href="style.css">
-			<link rel="shortcut icon" href="kh.ico">
-			<link href='https://fonts.googleapis.com/css?family=Roboto:300,100' rel='stylesheet' type='text/css'>
-		</head>
-		<body>
-			<img src= "my_picture.png" alt= "Kate Harwood"/>
-			<h1>
-				Kate Harwood
-			</h1>
-			<div id="buttonholder">
-				<div class=button id="buttonleft">
-					<a href= 'resume.html'> Resume </a>
-				</div>
-				<div class=button id="buttonright">
-					<a href= 'bio.html'> Bio </a>
-				</div>
-			</div>
-		</body>
-	</html> -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -30,15 +6,15 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="style.css" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" href="icon.png">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="imgs/target.ico">
 
   </head>
   <body>
     <div id=main-section>
       <div class=section>
         <div id=intro>
-    			<img id=small-pic src="my_picture.png" alt="Kate Harwood"/>
+    			<img id=small-pic src="imgs/my_picture.png" alt="Kate Harwood"/>
     			<h1>
     				Kate
     			</h1>
@@ -49,8 +25,8 @@
       </div>
       <div class=section>
         <div class=blue-section>
-          <div class=section-icon>
-            <img src="info-icon-white.jpg" alt="InfoIcon"/>
+          <div class=section-icon id=info-icon>
+            <img src="imgs/info-icon.png" alt="InfoIcon"/>
           </div>
           <div class=section-title>
             ABOUT
@@ -74,8 +50,10 @@
       </div>
       <div class=section>
         <div class=black-section>
-          <div class=section-icon>
-            <img src="education-icon.jpg" alt="EducationIcon"/>
+          <div class='circle circle-blue'>
+            <div class=section-icon id=education-icon>
+              <!-- <img src="imgs/education-icon.png" alt="EducationIcon"/> -->
+            </div>
           </div>
           <div class=section-title>
             EDUCATION
@@ -130,23 +108,66 @@
       </div>
       <div class=section>
         <div class=blue-section>
-          <div class=section-icon>
-            <img src="experience_icon.jpg" alt="ExperienceIcon"/>
+          <div class='circle circle-white'>
+            <div class=section-icon id=skills-icon>
+              <!-- <img src="imgs/skills-icon.png" alt="Skills Icon"/> -->
+            </div>
+          </div>
+          <div class=section-title>
+            SKILLS
+          </div>
+          <div class=content>
+            <div class=entry-blue>
+              <div class=entry-title>
+                HTML/CSS
+              </div>
+            </div>
+            <div class=entry-blue>
+              <div class=entry-title>
+                JavaScript
+              </div>
+            </div>
+            <div class=entry-blue>
+              <div class=entry-title>
+                React Native
+              </div>
+            </div>
+            <div class=entry-blue>
+              <div class=entry-title>
+                C++
+              </div>
+            </div>
+            <div class=entry-blue>
+              <div class=entry-title>
+                Git
+              </div>
+            </div>
+            <div class=entry-blue>
+              <div class=entry-title>
+                Spanish (conversational)
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=section>
+        <div class=black-section>
+          <div class=circle >
+            <div class=section-icon id=experience-icon>
+              <!-- <img src="imgs/experience-icon.png" alt="Experience Icon"/> -->
+            </div>
           </div>
           <div class=section-title>
             EXPERIENCE
           </div>
           <div class=content>
-            <div class=entry-blue>
+            <div class=entry-black>
               <div class=entry-title>
                 CURIOUS LEARNING
               </div>
               <div class=year>
                 2015 - Present
               </div>
-              <!-- <div class=location>
-                Cambridge MA
-              </div> -->
               <div class='entry-info job-info'>
                 <div class=position>
                   Software Developer
@@ -162,7 +183,7 @@
                 </div>
               </div>
             </div>
-            <div class=entry-blue>
+            <div class=entry-black>
               <div class=entry-title>
                 Tufts NeuroCognition Lab
               </div>
@@ -184,7 +205,78 @@
                 </div>
               </div>
             </div>
+            <div class=entry-black>
+              <div class=entry-title>
+                ELESAPIENS
+              </div>
+              <div class=year>
+                Madrid, Spring 2016
+              </div>
+              <div class='entry-info job-info'>
+                <div class=position>
+                  Translator
+                </div>
+                <div>
+                  Translated documents from Spanish to English
+                </div>
+              </div>
+            </div>
           </div>
+        </div>
+      </div>
+      <div class=section>
+        <div class=blue-section>
+          <div class=circle>
+            <div class=section-icon id=projects-icon>
+              <!-- <img src="imgs/projects-icon.png" alt="Projects Icon"/> -->
+            </div>
+          </div>
+          <div class=section-title>
+            PROJECTS
+          </div>
+          <div class=content>
+            <div class=entry-blue>
+              <div class=entry-title>
+                MiniMash
+              </div>
+              <div class='entry-info job-info'>
+                <div>
+                  Collaborated on a web app that allows users to upload sound files,
+                  play with equalizers and faders to manipulate the songs,
+                  and provides them with a mash up of the altered songs
+                </div>
+              </div>
+            </div>
+            <div class=entry-blue>
+              <div class=entry-title>
+                Online Boggle
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+      <div class=section>
+        <div class=black-section>
+          <div class=circle>
+            <div class=section-icon id=contact-icon>
+              <!-- <img src="imgs/contact-icon.png" alt="Contact Icon"/> -->
+            </div>
+          </div>
+          <div class=content id=contact>
+            <a href='mailto:kraharwood@gmail.com'>
+              <div class='entry-black clickable'>
+                <div class=entry-title>
+                  kraharwood@gmail.com
+                </div>
+              </div>
+            </a>
+            <a href='https://www.linkedin.com/in/kate-harwood-3962b698'>
+              <div class='entry-black clickable'>
+                <div class=entry-title>
+                  LinkedIn
+                </div>
+              </div>
+            </a>
         </div>
       </div>
     </div>

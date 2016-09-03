@@ -260,7 +260,7 @@ a:hover, a:link {
     }
 }*/
 
-@media screen and (max-width: 920px) {
+@media only screen and (max-width: 920px) {
     #main-section {
         margin-left: 0%;
         margin-right: 0%;

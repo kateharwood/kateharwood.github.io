@@ -96,22 +96,26 @@ body {
   border: 2px solid #67A9BF;
 }
 
+.section-content {
+  margin-left: 15%;
+}
+
 .section-title {
   display: inline;
   letter-spacing: 8px;
   font-size: 30px;
   text-decoration: overline;
   float: left;
-  margin-left: 5%;
+  /*margin-left: 5%;*/
   /*margin-top: -5%*/
   /*margin-top: 24%; TODO this is all messed up when made smaller, with content width too, should prob either just have it on top, or figure out how to use rows and cols and all that stuff*/
 }
 
 .content {
   display: inline-block;
-  margin-left: 17%;
+  /*margin-left: 17%;*/
   width: 80%;
-  margin-top: -2%;
+  margin-top: 2%;
   /*float: left;*/
 }
 

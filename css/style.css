@@ -305,6 +305,9 @@ a:hover, a:link {
     .entry-info {
       font-size: 30px;
     }
+    .position {
+      font-size: 30px;
+    }
     .about {
       font-size: 35px;
     }

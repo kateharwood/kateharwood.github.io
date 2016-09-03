@@ -109,7 +109,7 @@ body {
 
 .content {
   display: inline-block;
-  margin-left: 15%;
+  margin-left: 17%;
   width: 80%;
   margin-top: -2%;
   /*float: left;*/
@@ -264,6 +264,7 @@ a:hover, a:link {
     #main-section {
         margin-left: 0%;
         margin-right: 0%;
+        padding-top: 0%;
     }
     .entry-title {
       font-size: 32px;
@@ -276,5 +277,8 @@ a:hover, a:link {
     }
     .about {
       font-size: 30px;
+    }
+    .section {
+      padding-bottom: 0%;
     }
 }

@@ -293,7 +293,7 @@ a:hover, a:link {
         margin-right: 0%;
         padding-top: 0%;
     }
-    /*.entry-title {
+    .entry-title {
       font-size: 32px;
     }
     .year {
@@ -303,9 +303,9 @@ a:hover, a:link {
       font-size: 25px;
     }
     .about {
-      font-size: 30px;
+      font-size: 35px;
     }
     .section {
       padding-bottom: 0%;
-    }*/
+    }
 }

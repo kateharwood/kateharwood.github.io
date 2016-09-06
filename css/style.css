@@ -20,46 +20,29 @@ body {
 }
 
 .section {
-  padding-bottom: 1%;
+  padding: 5%;
+  padding-left: 4%;
+  padding-bottom: 2%;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  margin-bottom: 1%;
+
 }
 
 .blue-section {
   background-color: #338FB6;
   color: white;
-  padding: 5%;
-  padding-left: 4%;
-  padding-bottom: 2%;
-  border-width: 1px;
-  border-style: solid;
   border-color: black;
-  border-radius: 5px;
 }
 
 .black-section {
   background-color: black;
-  padding: 5%;
-  padding-left: 4%;
-  padding-bottom: 2%;
-  border-width: 1px;
-  border-style: solid;
   border-color: #67A9BF;
-  border-radius: 5px;
 }
 
 
 .section-icon {
-  /*margin-right: 4%;*/
-  /*display: inline;*/
-  /*float: left;*/
-  /*position: absolute;*/
-  /*margin-top: 1%;*/
-  /*padding-left: %;*/
-  /*display: block;
-  margin-left: auto;
-  margin-right: auto;*/
-  /*margin-left: 13%;*/
-  /*height:50px;
-  width:50px;;*/
   border-radius: 50%;
   padding: 40px;
   display: inline-block;
@@ -68,8 +51,8 @@ body {
 }
 
 #info-icon {
-  background:url(../imgs/about-icon.png) no-repeat center center;
-  padding: 0;
+  background:url(../imgs/info-icon.png) no-repeat center center;
+  border: 2px solid white;
 }
 
 #education-icon {
@@ -104,17 +87,13 @@ body {
   text-decoration: overline;
   float: left;
   margin-left: 5%;
-  /*margin-top: -5%*/
-  /*margin-top: 24%; TODO this is all messed up when made smaller, with content width too, should prob either just have it on top, or figure out how to use rows and cols and all that stuff*/
 }
 
 .content {
   display: inline-block;
-  /*margin-left: 45px;*/
   margin-left: 14%;
   width: 80%;
   margin-top: -2%;
-  /*float: left;*/
 }
 
 .entry-blue {
@@ -138,7 +117,6 @@ body {
 .entry-title {
   display: inline;
   font-size: 22px;
-  /*text-decoration: underline;*/
 }
 
 .year {
@@ -176,16 +154,9 @@ body {
   display: inline;
 }
 
-/*.location {
-  font-size: 12px;
-  color: #aac7d9;
-  padding-left: 4%;
-}*/
-
 #intro {
   background-color: black;
   padding: 5%;
-  /*margin-top: 4%;*/
   padding-bottom: 4%;
   border-width: 1px;
   border-style: solid;
@@ -203,12 +174,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: block;
-
-  /*float: left;
-  display: inline-block;
-  margin-left: 10%;
-  margin-top: 4%;*/
-
 }
 
 h1 {
@@ -220,10 +185,6 @@ h1 {
   text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
   text-align: center;
   letter-spacing: 8px;
-
-  /*float: right;
-  display: inline-block;
-  margin-right: 20%;*/
 }
 
 .about {
@@ -269,14 +230,9 @@ a:hover, a:link {
 }
 
 @media  screen and (max-width: 800px) {
-    #main-section {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
     #contact {
       margin-top: 0%;
       margin-left: 1%;
-      /*display: block;*/
     }
 }
 
@@ -287,6 +243,16 @@ a:hover, a:link {
     }
     h1 {
       font-size: 70px;
+    }
+    .content {
+      margin-top: 2%;
+    }
+    #contact {
+      width: 70%;
+    }
+    #contact-info {
+      font-size: 15px;
+      padding-left: 5%;
     }
 }
 

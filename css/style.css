@@ -21,6 +21,7 @@ em > a {
   color: white;
 }
 
+
 #main-section {
   margin-left: 20%;
   margin-right: 20%;
@@ -88,6 +89,10 @@ em > a {
   border: 2px solid #67A9BF;
 }
 
+#contact {
+  margin-top: -100px;
+}
+
 .section-title {
   display: inline;
   letter-spacing: 8px;
@@ -118,7 +123,7 @@ em > a {
   border-style: solid;
   border-radius: 15px;
   padding: 2.5%;
-  margin-bottom: 3%;
+  margin-bottom: 4%;
 }
 
 .entry-title {
@@ -233,10 +238,6 @@ a:hover, a:link {
   text-decoration: none;
 }
 
-#contact {
-  margin-top: -100px;
-}
-
 .clickable:hover {
   background-color: #67A9BF;
 }
@@ -304,45 +305,48 @@ a:hover, a:link {
       margin-right: 0%;
       padding-top: 0%;
     }
+    #contact {
+      margin-top: 0%;
+    }
     .content {
-      margin-top: 20px;
+      margin-top: 40px;
       margin-left: 5%;
       width: 90%;
     }
     .section-title {
-      font-size: 50px;
+      font-size: 60px;
     }
     .entry-title {
-      font-size: 42px;
+      font-size: 52px;
     }
     #spanish-title {
-      font-size: 42px;
+      font-size: 52px;
     }
     .year {
-      font-size: 40px;
+      font-size: 50px;
     }
     .entry-info {
-      font-size: 35px;
+      font-size: 45px;
     }
     .position {
-      font-size: 40px;
+      font-size: 50px;
     }
     .about {
-      font-size: 45px;
+      font-size: 55px;
     }
     .section {
       margin-bottom: 0%;
       padding: 0;
-      padding-top: 30px;
+      padding-top: 50px;
     }
     .section-icon {
       display: none;
     }
     .bullet {
-      margin-left:20px;
-      margin-top: -50px;
+      margin-left: 30px;
+      margin-top: -65px;
     }
     .skill {
-      width: 300px;
+      width: 350px;
     }
 }

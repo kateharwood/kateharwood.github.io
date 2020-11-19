@@ -52,6 +52,9 @@ em > a {
   border-color: #67A9BF;
 }
 
+.circle {
+  padding-bottom: 20px;
+}
 
 .section-icon {
   border-radius: 50%;
@@ -99,7 +102,7 @@ em > a {
   letter-spacing: 8px;
   font-size: 30px;
   text-decoration: overline;
-  margin-left: 5%;
+  margin-left: 15px;
 }
 
 .content {

@@ -320,6 +320,7 @@ a:hover, a:link {
     }
     .section-title {
       font-size: 60px;
+      margin-left: 50px;
     }
     .entry-title {
       font-size: 52px;

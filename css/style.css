@@ -31,6 +31,7 @@ em > a {
 
 .section {
   padding: 5%;
+  padding-right:8%;
   padding-left: 4%;
   padding-bottom: 2%;
   border-width: 1px;
@@ -123,6 +124,7 @@ em > a {
   border-style: solid;
   border-radius: 15px;
   padding: 2.5%;
+  padding-right: 5%;
   margin-bottom: 4%;
 }
 

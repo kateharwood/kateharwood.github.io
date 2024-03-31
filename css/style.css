@@ -230,11 +230,16 @@ em > a {
 
 .skill {
   width: 200px;
+  border-radius: 0px;
+  margin-top: -12px;
+  border-left: none;
+  border-right: none;
 }
 
 .skills-content {
   text-align: center;
   margin-left:12%;
+  margin-top:5px;
 }
 
 #skills-col1 {
@@ -316,9 +321,10 @@ a:hover, a:link {
     }
 }
 
-@media  screen and (max-width: 705px) {
+@media  screen and (max-width: 750px) {
   #skills-col2 {
-    margin-left: 0;
+    margin-top: -4px;
+    margin-left: -0.5%
   }
 }
 
@@ -340,9 +346,9 @@ a:hover, a:link {
       font-size: 15px;
       padding-left: 5%;
     }
-    #spanish-title {
+    /* #spanish-title {
       font-size: 16px;
-    }
+    } */
 }
 
 @media only screen and (max-device-width: 500px) {

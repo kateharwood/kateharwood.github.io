@@ -4,13 +4,24 @@ div {
 
 body {
   font-family: "Century Gothic", sans-serif;
-  background-image: url("../imgs/tunnel_final.jpg");
-  /* color:#67A9BF; */
+  background-image: url("../imgs/bookshelf-window-bg.png");
   color: #b6e1fc;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: 40%;
+  background-position: -2.5% center;
   background-color: #338FB6;
+}
 
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+  pointer-events: none;
+  z-index: 0;
 }
 
 em {
@@ -24,10 +35,11 @@ em > a {
 
 
 #main-section {
+  position: relative;
+  z-index: 1;
   margin-left: 20%;
   margin-right: 20%;
   padding-top: 1%;
-  opacity: .8;
 }
 
 .section {
@@ -46,12 +58,14 @@ em > a {
   background-color: #338FB6;
   color: white;
   border-color: black;
+  opacity: 0.8;
 }
 
 .black-section {
   background-color: black;
   /* border-color: #67A9BF; */
   border-color: #b6e1fc;
+  opacity: 0.8;
 }
 
 .circle {
@@ -175,11 +189,6 @@ em > a {
   margin-bottom: 10px;
 }
 
-#top-level-bullet {
-  margin-top: 0px;
-  margin-left: 0px;
-}
-
 .sub-bullet {
   /* margin-top: -25px; */
   margin-left: 15px;
@@ -215,17 +224,25 @@ em > a {
 
 }
 
-#small-pic {
-  height: 200px;
+.small-pic-wrap {
   width: 190px;
-  border-width: 2px;
-  border-style: solid;
-  /* border-color: #67A9BF; */
-  border-color: #b6e1fc;
+  height: 200px;
   border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #b6e1fc;
   margin-left: auto;
   margin-right: auto;
   display: block;
+  opacity: 0.92;
+}
+
+#small-pic {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center center;
+  transform: scale(1.15) translateY(2.5%);
 }
 
 .skill {
